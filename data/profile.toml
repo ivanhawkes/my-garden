@@ -1,0 +1,18 @@
+enable = "true"
+heading = "Profile"
+
+[[person]]
+	avatar ="/img/author/avatar.jpg"
+	name = "Ivan Hawkes"
+	profile = "ivan-hawkes"
+	position = "Lead Programmer"
+	description = "An ambivalent, disconnected, hermit with a fine love of irony and a wit like a Scottish Terrier; currently fulfilling all the cliches of a digital citizen."
+	homepage = "http://hawkes.info/"
+	github = "ivanhawkes"
+	bitbucket = "ivanhawkes"
+	twitter = "ivanhawkes"
+	youtube = "channel/UClCTxhonVVsYb7qmqv4dldg"
+	facebook = "ivan.hawkes"
+	googleplus = "IvanHawkes"
+	linkedin = "ivan-hawkes-a8386338"
+	pinterest = "ivanhawkes"

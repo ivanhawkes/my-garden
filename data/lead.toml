@@ -1,0 +1,22 @@
+enable = "true"
+
+[[item]]
+	link ="/about/"
+	linktext ="Be Disappointed"
+	image = "/img/site/category/general.jpg"
+	title = "About Us"
+	content = "You can dig into the details of our company; if that's your thing."
+
+[[item]]
+	link ="/profile/"
+	linktext ="Stalk"
+	image = "/img/site/category/physics.jpg"
+	title = "Our Team"
+	content = "Each team member has a long and storied past. Well, some members do, others are enigmas encoded in a cypher, and wrapped in a mystery. Interested?"
+
+[[item]]
+	link ="/project/"
+	linktext ="Explore"
+	image = "/img/site/category/cryengine.jpg"
+	title = "Our Projects"
+	content = "How long can it take to read about one or two projects? This link has got to be a click, for sure."

@@ -1,0 +1,69 @@
+baseURL = "http://garden.hawkes.info/"
+languageCode = "en-us"
+theme = "tau-radius-development"
+title = "My Garden"
+themesDir = "../../themes"
+MetaDataFormat = "toml"
+DefaultContentLanguage = "en"
+Paginate = 10
+
+# Code highlighting.
+pygmentsCodeFences = true
+
+# Preserve special characters in taxonomy names ("Gérard Depardieu" vs "Gerard Depardieu")
+preserveTaxonomyNames = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params.sitedesign]
+  homepage = "/img/site/masthead/homepage.jpg"
+  page = "/img/site/masthead/page.jpg"
+
+[params.author]
+  name = "Ivan Hawkes"
+  description = "An ambivalent, disconnected, hermit with a fine love of irony and a wit like a Scottish Terrier - currently fulfilling all the clichés of a digital citizen."
+  homepage = "http://hawkes.info/"
+  avatar = "/img/author/avatar.jpg"
+
+[params.copyright]
+  year = "2019"
+  owner = "Ivan Hawkes"
+  notice = "all rights reserved."
+
+[params.social]
+	twitter = "ivanhawkes"
+	facebook = "ivan.hawkes"
+	googleplus = "IvanHawkes"
+	linkedin = "ivan-hawkes-a8386338"
+	youtube = "channel/UClCTxhonVVsYb7qmqv4dldg"
+	github = "ivanhawkes"
+	bitbucket = "ivanhawkes"
+	pinterest = "ivanhawkes"
+  
+[menu]
+	[[menu.nav]]
+	pre = "<i class='material-icons'>business</i>"
+	name = "About Us"
+	URL = "about"
+	weight = 1
+
+	[[menu.nav]]
+	pre = "<i class='material-icons'>people</i>"
+	name = "Our Team"
+	URL = "profile"
+	weight = 2
+	
+	[[menu.nav]]
+	pre = "<i class='material-icons'>rowing</i>"
+	name = "Our Projects"
+	URL = "project"
+	weight = 3
+
+	[[menu.nav]]
+	pre = "<i class='material-icons'>subject</i>"
+	name = "Posts"
+	URL = "post"
+	weight = 4
