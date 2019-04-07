@@ -1,4 +1,4 @@
-baseURL = "http://garden.hawkes.info/"
+baseURL = "http://my-garden.hawkes.info/"
 languageCode = "en-us"
 theme = "tau-radius-development"
 title = "My Garden"
